@@ -22,6 +22,7 @@ Route::post('/landingform', 'ContactsController@landingForm');
 Route::get('/contact-list', 'ContactsController@listOfContact');
 
 Route::get('/destroy-contact/{id}', 'ContactsController@destroy');
+Route::get('/contact-edit/{id}', 'ContactsController@edit');
 
 
 

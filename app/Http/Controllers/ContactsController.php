@@ -52,4 +52,8 @@ class ContactsController extends Controller
         return back()->withMessage("contact deleted");
 
     }
+    public function edit($contactId)
+    {
+        return view('contact-edit');
+    }
 }
